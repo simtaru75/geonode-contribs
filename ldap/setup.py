@@ -48,7 +48,7 @@ setup(
     packages=find_packages(),
     include_package_data=True,
     install_requires=[
-        "django-auth-ldap==4.1.0",
+        "django-auth-ldap~=4.8",
         "python-ldap",
     ],
 )
